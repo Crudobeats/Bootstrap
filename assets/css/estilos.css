@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
+  background-color: rgba(0,0,0,0.90);
+  color: white;
 }
 
 /* Hero Section */
@@ -21,11 +23,17 @@ body {
   background-position: center;
 }
 
+#Mis-trabajos {
+  color: black;
+  font-weight: 300;
+  background-color: teal !important;
+}
+
 /* Contacto */
 
 #Contacto form label {
   font-weight: 700;
-  color: #072941;
+  color: white;
 }
 
 @media (max-width: 768px) {
